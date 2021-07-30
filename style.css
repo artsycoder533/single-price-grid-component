@@ -1,2 +1,160 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+  font-size: 16px;
+  background: #e5eff5;
+  color: #e5eff5;
+  font-family: "Karla", sans-serif;
+}
+
+body ul {
+  list-style-type: none;
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 0.75rem;
+}
+
+p {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  margin: auto;
+}
+
+.community,
+.subscription,
+.why-us {
+  padding: 20px;
+}
+
+.community {
+  color: #98a6bd;
+  background: white;
+}
+
+.community h1 {
+  color: #2ab2af;
+}
+
+.community h2 {
+  font-size: 0.9rem;
+  padding: 20px 0;
+  color: #c0df34;
+}
+
+.holder {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid pink;
+}
+
+.holder .subscription {
+  background: #2ab2af;
+  height: 50%;
+}
+
+.holder .subscription .sub-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50%;
+}
+
+.holder .subscription .sub-holder .price-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 0.7rem;
+  letter-spacing: 0.025rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.holder .subscription .sub-holder .price-container .price {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-right: 12px;
+  color: white;
+}
+
+.holder .subscription .sub-holder .price-container .month {
+  opacity: 0.8;
+  font-size: 0.75rem;
+}
+
+.holder .subscription .sub-holder .para {
+  letter-spacing: 0.02rem;
+  padding-bottom: 0;
+}
+
+.holder .subscription .button-holder {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.holder .subscription .button-holder button {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  border-radius: 5px;
+  border: none;
+  background: #c0df34;
+  color: white;
+  font-family: "Karla", sans-serif;
+  -webkit-box-shadow: 2px 3px 8px #208887;
+          box-shadow: 2px 3px 8px #208887;
+}
+
+.why-us {
+  background: #2fc6c4;
+  height: 50%;
+  letter-spacing: .025rem;
+  font-weight: 400;
+}
 /*# sourceMappingURL=style.css.map */
