@@ -42,7 +42,7 @@ For this challenge I examined the design picture given to thing about the best h
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SASS
 - Flexbox
 - Mobile-first workflow
 
