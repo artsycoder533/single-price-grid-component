@@ -8,8 +8,7 @@
 
 body {
   height: 100vh;
-  width: 90vw;
-  margin: auto;
+  margin: 10vh auto;
   font-size: 16px;
   background: #e5eff5;
   color: #e5eff5;
@@ -22,6 +21,12 @@ body ul {
   line-height: 1.1rem;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 36rem;
+  }
+}
+
 h1 {
   font-size: 1rem;
   font-weight: 700;
@@ -30,16 +35,11 @@ h1 {
 
 p {
   font-size: 0.8rem;
-  line-height: 1.3rem;
-}
-
-.wrapper {
-  width: 100%;
-  height: 100%;
+  line-height: 1.4rem;
 }
 
 .card {
-  height: 100%;
+  max-height: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,8 +48,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 20px;
-  margin: auto;
+  padding: 30px;
 }
 
 .community,
@@ -69,7 +68,7 @@ p {
 
 .community h2 {
   font-size: 0.9rem;
-  padding: 20px 0;
+  padding: 15px 0;
   color: #c0df34;
 }
 
@@ -83,12 +82,10 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid pink;
 }
 
 .holder .subscription {
   background: #2ab2af;
-  height: 50%;
 }
 
 .holder .subscription .sub-holder {
@@ -125,7 +122,7 @@ p {
 
 .holder .subscription .sub-holder .para {
   letter-spacing: 0.02rem;
-  padding-bottom: 0;
+  padding-bottom: 1.2rem;
 }
 
 .holder .subscription .button-holder {
@@ -151,10 +148,30 @@ p {
           box-shadow: 2px 3px 8px #208887;
 }
 
+@media screen and (min-width: 768px) {
+  .holder .subscription {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .holder {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .why-us {
   background: #2fc6c4;
-  height: 50%;
   letter-spacing: .025rem;
   font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .why-us {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
