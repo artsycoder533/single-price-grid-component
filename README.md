@@ -37,7 +37,7 @@ Users should be able to:
 
 ## My process
 
-For this challenge I examined the design picture given to thing about the best html structure to use to easily facilite being responsive with as little code as possible.  I started with a mobile-first workflow and figured out the spacing to get as close to the design picture as possible.  Once I figured out to set a max-height on the the mobile view it was fairly simple to switch the flex direction to row to incorporate the desktop design.  In the picture it seemed as if the elements all stayed the same size, so I had to preserve their dimensions as much as possible.
+For this challenge I examined the design picture given to thing about the best html structure to use to easily facilite being responsive with as little code as possible.  I started with a mobile-first workflow and figured out the spacing to get as close to the design picture as possible.  Once I figured out to set a max-height on the the mobile view it was fairly simple to switch the flex direction to row to incorporate the desktop design.  In the picture it seemed as if the elements all stayed the same size, so I had to preserve their dimensions as much as possible.  Instead of using regular CSS, I practiced using SASS.
 
 ### Built with
 
@@ -52,7 +52,7 @@ I learned that if you properly set up your html structure setting up media queri
 
 ### Continued development
 
-I want to continue focusing on media queries and responsive design as well as CSS Flexbox and Grid to better understand when to use which technique.
+I want to continue focusing on media queries and responsive design as well as CSS Flexbox and Grid to better understand when to use which technique.  II also want to continue to get more comfortable using SASS instead of CSS3.
 
 
 ## Author
